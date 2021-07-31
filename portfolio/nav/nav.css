@@ -1,0 +1,37 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav div:first-child {
+    padding-left: 1rem;
+}
+
+nav #logo {
+    height: 45px;
+    width: auto;
+}
+
+nav div a {
+    margin-right: 2rem;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    font-family: Lato;
+    font-weight: bolder;
+}
+nav div a:last-child {
+    margin-right: 1rem;
+}
+
+
+nav a:hover {
+    color: #36454F;
+    opacity: 0.75;
+}
+
+nav a.active {
+    color: #36454F;
+    opacity: 0.75;
+}

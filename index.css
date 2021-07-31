@@ -6,29 +6,30 @@
 * {
     box-sizing: border-box;
 }
-body,
-html {
+
+body, html {
     height: 100%;
     overflow-y: hidden;
 }
 
 body {
-    background-color: black;
+    background: linear-gradient( 60deg, rgba(249, 165, 106, 0.9) 4.08%, rgba(255, 217, 141, 0.8) 51.45%, rgb(102, 149, 182) 95.98%);
     font-family: rogfont;
     color: white;
 }
 
 #home {
-    background-image: url("image/1.1.png");
+    background-image: url("assets/home/home.png");
     background-repeat: no-repeat;
     height: 100%;
 }
 
 /* Side Logo */
+
 .sidelogo {
     position: absolute;
     top: 72%;
-    left: 2.4%;
+    left: 3%;
     opacity: 0.8;
 }
 
@@ -37,9 +38,11 @@ body {
     margin-top: 10px;
     display: block;
 }
+
 /* End of Side Logo */
 
 /* Container */
+
 .container .text {
     position: absolute;
     top: 35%;
