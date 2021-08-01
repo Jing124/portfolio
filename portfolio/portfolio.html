@@ -7,24 +7,28 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Portfolio</title>
 	<link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
-	<!-- <link href="../shared/nav.css" rel="stylesheet"> -->
-	<!-- <link href="../shared/nav_responsive.css" rel="stylesheet"> -->
+	<link href="../shared/nav.css" rel="stylesheet">
+	<link href="../shared/nav_responsive.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 	<link rel="stylesheet" href="portfolio.css">
-	<link href="./nav/nav.css" rel="stylesheet">
-	<link rel="stylesheet" href="./index.css" rel="stylesheet">
 </head>
 
 <body>
 	<header>
-		<nav>
-			<div><img id="logo" src="./logo.png"></div>
-			<div>
-				<a id="home" href="../index.html">Home</a>
-				<a id="portfolio" href="./index.html">Portfolio</a>
-				<a id="resume" href="../resume/resume.html">Resume</a>
-				<a id="contact" href="">Contact</a>
-			</div>
-		</nav>
+        <nav id="topNav">
+            <div class="nav-left">
+                <img src="../assets/logo.png" alt="profile" />
+            </div>
+            <div class="nav-right">
+                <a href="javascript:void(0);" class="icon" onclick="showResponsiveNav()">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <a href="">Home</a>
+                <a href="portfolio/index.html">Portfolio</a>
+                <a href="resume/resume.html">Resume</a>
+                <a href="contact/contact.html">Contact</a>
+            </div>
+        </nav>
 	</header>
 	<section id="landingPage">
 		<div>
@@ -297,8 +301,9 @@
 		</div> <!-- / Item 03 -->
 	</section> <!-- / projects -->
 
-	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-	<script src="./nav/nav.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="../shared/nav.js"></script>
 	<script src="script.js"></script>
 
 </body>
