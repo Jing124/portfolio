@@ -25,6 +25,7 @@ nav {
 .nav-left img {
     width: auto;
     height: 55px;
+    vertical-align: middle;
 }
 
 #topNav.responsive .nav-left {
