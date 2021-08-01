@@ -1,42 +1,38 @@
 /* navbar */
-.topnav a {
-    float: right;
-    display: block;
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-right a {
     color: black;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
     margin-right: 2rem;
 }
 
-.topnav .icon {
+.nav-right .icon {
     display: none;
+    text-align: end;
 }
 
-.mainlogo {
-    position: absolute;
-    left: 2%;
-    top: 1.8%;
+.nav-left {
+    padding-left: 2rem;
 }
 
-.mainlogo img {
+.nav-left img {
     width: auto;
     height: 55px;
 }
 
-.topnav.responsive {
-    position: relative;
+#topNav.responsive .nav-left {
+    align-self: flex-start;
 }
-.topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-.topnav.responsive a:not(:last-child) {
-    float: none;
+
+#topNav.responsive .nav-right a:not(:first-child) {
     display: block;
     text-align: right;
-    margin-right: 2rem;
 }
 /* End of Navbar */
